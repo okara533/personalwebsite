@@ -1,31 +1,63 @@
 body{
     background-color: black;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    margin: 0;
+    font-family: monospace, Arial, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 0;
+
 }
 
-#header {
+
+
+.header {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
     background-color: black;
     padding: 20px;
     margin: 20px;
-    border: 1px solid black;
+    border: 1px solid rgb(230, 146, 28);
     align-items: center;
     text-align: center;
     color: rgb(230, 146, 28);
+}
+#pictureSection, #nameSection, #contactsSection{
+    padding: 10px;
+    margin: 10px;
+}
+
+#contactsSection{
+    border: 1px dashed rgb(0, 0, 0);
+    background-color: rgb(230, 146, 28);
+    color: black;
+    text-align: left;
+}
+
+#nameSection{
+   font-size:30px;
 }
 #profilePicture {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 1px solid black;
-    margin: 20px;
 }
 
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin:5px;
+}
 a{
-    color: rgb(230, 146, 28);
+    color: rgb(0, 0, 0);
+
     text-decoration: none;
+
 }
 a:hover{
     color: rgb(255, 255, 255);
