@@ -1,11 +1,11 @@
 body{
     background-color: black;
-    font-family: monospace, Arial, sans-serif;
+    font-family: "VT323", Arial, sans-serif;
     font-size: 15px;
-    margin: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: rgb(230, 146, 28);
 
 }
@@ -16,12 +16,12 @@ body{
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
+    gap:50px;
     background-color: black;
     padding: 20px;
     margin: 20px;
-    border: 1px solid rgb(230, 146, 28);
-    align-items: center;
-    text-align: center;
+    /* border: 1px solid rgb(230, 146, 28); */
+
     color: rgb(230, 146, 28);
 }
 #pictureSection, #nameSection, #contactsSection{
@@ -34,10 +34,16 @@ body{
     background-color: rgb(230, 146, 28);
     color: black;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #nameSection{
    font-size:30px;
+   display: flex;
+   align-items: center;
+   gap:10px;
 }
 #profilePicture {
     width: 200px;
@@ -56,6 +62,9 @@ body{
 }
 
 .experience{
+    background-color: rgb(1, 1, 38);
+    color: white;
+    font-size: 28px;
     border: 1px dashed;
     padding: 10px;
     margin: 10px;
@@ -83,29 +92,28 @@ a:hover{
 #byTime{
     display: none;
 }
+#byExperience{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-button {
-	box-shadow:inset 0px 1px 0px 0px #cf866c;
-	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
-	background-color:#d0451b;
-	border-radius:3px;
-	border:1px solid #942911;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:13px;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #854629;
 }
-button:hover {
-    box-shadow:inset 0px 1px 0px 0px #3dc21b;
-    border:1px solid #18ab29;
-	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
-	background-color:#5cbf2a;
+button{
+background-color: green;
+font-family: "VT323", Arial, sans-serif;
+font-size: 28px;
+color: white;
 }
-button:active {
-	position:relative;
-	top:1px;
+button:hover{
+    background-color: red;
 }
+
+.Selection{
+ margin:10px;
+ font-size: 28px;
+ display:flex;
+ align-items: center;
+ justify-content: flex-start;
+ gap:10px
+}
+
