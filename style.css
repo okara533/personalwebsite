@@ -18,15 +18,14 @@ body{
     align-items: center;
     flex-wrap: wrap;
     background-color: black;
-    padding: 20px;
-    margin: 20px;
+    margin-top: 30px;
     /* border: 1px solid rgb(230, 146, 28); */
 
     color: rgb(230, 146, 28);
 }
 #pictureSection, #nameSection, #contactsSection{
     padding: 10px;
-    margin: 10px;
+    
 }
 
 #contactsSection{
@@ -42,10 +41,16 @@ body{
 }
 
 #nameSection{
-   font-size:30px;
-   display: flex;
-   align-items: center;
-   gap:10px;
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1px;
+
+}
+h1,h3{
+    margin:3px
 }
 #profilePicture {
     width: 200px;
@@ -56,7 +61,6 @@ body{
 .about{
 
     padding: 20px;
-    margin: 20px;
     border: 1px solid rgb(230, 146, 28);
     align-items: left;
     text-align: left;
@@ -73,6 +77,9 @@ body{
 }
 .exp{
     max-width: 400px;
+}
+#titre{
+    align-content: flex-end;
 }
 ul{
     list-style-type: none;
@@ -114,7 +121,7 @@ button:hover{
 }
 
 .Selection{
- margin:10px;
+ margin:0px;
  font-size: 28px;
  display:flex;
  align-items: center;
