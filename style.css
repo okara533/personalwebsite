@@ -75,7 +75,7 @@ h1,h3{
     padding: 10px;
     margin: 10px;
 }
-#byExperience>.experience{
+#bySkills>.experience{
     max-width: 400px;
 } 
 #titre{
@@ -99,10 +99,10 @@ a:hover{
     text-decoration: none;
 }
 
-#byTime{
+#byTime,#byVideos,#byBlogs{
     display: none;
 }
-#byExperience{
+#bySkills{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -126,3 +126,4 @@ button:hover{
  justify-content: flex-start;
  gap:10px
 }
+
