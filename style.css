@@ -75,9 +75,9 @@ h1,h3{
     padding: 10px;
     margin: 10px;
 }
-.exp{
+#byExperience>.experience{
     max-width: 400px;
-}
+} 
 #titre{
     align-content: flex-end;
 }
@@ -92,9 +92,7 @@ li{
 }
 a{
     color: rgb(0, 0, 0);
-
     text-decoration: none;
-
 }
 a:hover{
     color: rgb(255, 255, 255);
@@ -121,11 +119,10 @@ button:hover{
 }
 
 .Selection{
- margin:0px;
+ margin-bottom:5px;
  font-size: 28px;
  display:flex;
  align-items: center;
  justify-content: flex-start;
  gap:10px
 }
-
